@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col">
       <div className="bg-[#2FA4E7] w-full h-[6vh] text-white sticky z-50 flex top-0 right-0 left-0 items-center pt-2 pr-4 pb-2 pl-4 float-none">
         <div className="flex flex-row justify-between items-center gap-10 flex-nowrap float-none max-w-[1140px] w-full mr-auto ml-auto pl-4 pr-4 text-left">
-          <a className="inline-block text-[#fff] text-xl whitespace-nowrap mr-4 pt-[3125rem] pb-[3125rem]">
+          <a className="inline-block text-[#fff] text-xl whitespace-nowrap mr-4 pt-[0.3125rem] pb-[0.3125rem]">
             Shilan Reshadi
           </a>
           <button className="pt-1 pb-1 pr-3 pl-3 overflow-visible block md:hidden mb-2">
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </div>
       <div className="max-w-[1140px] w-full min-h-screen mt-5 ml-auto mr-auto pl-[15px] pr-[15px]">
-        <div className="flex mr-[-15px] ml-[-15px] text-left flex-wrap flex-col">
+        <div className="flex mr-[-15px] ml-[-15px] text-left flex-wrap flex-row">
           <div className="relative max-w-[25%] w-full min-h-[1px] pr-4 pl-4 flex-grow-0 flex-shrink-0 basis-[25%]">
             <div className="top-[76px] sticky ">
               <div>
@@ -52,7 +52,7 @@ export default function Home() {
                 <ul className="pt-[10px] pb-[10px] rounded-2xl w-full mt-0 mb-0 list-none">
                   <li className="text-left mt-3 ">
                     <a
-                      
+
                       className="font-bold pb-[5px] pt-[5px] pr-[20px] pl-[20px] text-[1rem] text-[#2FA4E7]"
                     >
                       Education
@@ -60,7 +60,7 @@ export default function Home() {
                   </li>
                   <li className="text-left mt-3">
                     <a
-                    
+
                       className="font-bold pb-[5px] pt-[5px] pr-[20px] pl-[20px] text-[1rem] text-[#2FA4E7]"
                     >
                       Teaching
@@ -68,7 +68,7 @@ export default function Home() {
                   </li>
                   <li className="text-left mt-3">
                     <a
-                     
+
                       className="font-bold pb-[5px] pt-[5px] pr-[20px] pl-[20px] text-[1rem] text-[#2FA4E7]"
                     >
                       Research
@@ -76,7 +76,7 @@ export default function Home() {
                   </li>
                   <li className="text-left mt-3">
                     <a
-                   
+
                       className="font-bold pb-[5px] pt-[5px] pr-[20px] pl-[20px] text-[1rem] text-[#2FA4E7]"
                     >
                       Ph.D. Students
@@ -84,7 +84,7 @@ export default function Home() {
                   </li>
                   <li className="text-left mt-3">
                     <a
-                   
+
                       className="font-bold pb-[5px] pt-[5px] pr-[20px] pl-[20px] text-[1rem] text-[#2FA4E7]"
                     >
                       M.Sc. Students
@@ -104,14 +104,7 @@ export default function Home() {
               {/* <img className="float mt-[10px] mb-0 ml-0 mr-[10px] max-w-[100%] p-[4px] rounded" /> */}
             </p>
             <div className="m-0">
-              I am an assistant professor in the Department of Electrical
-              Engineering, at Sharif University of Technology, IRAN. I joined
-              SUT in 2016. I received my Ph.D. in Electrical Engineering from
-              Sharif University of Technology, in co-tutelle with University of
-              Rennes 1, in 2014. I received my B.Sc. and M.Sc. in Electrical
-              Engineering from Sharif University of Technology, in 2006 and 2008
-              repectively. My research interests focus on biomedical signal
-              processing, especially EEG signal processing.
+              Shilan Reshadi is a dedicated Teaching Assistant at Azad University, Tabriz Branch, with a robust academic background in Computer Engineering and Mechatronics. She earned her Ph.D. in Computer Engineering from Islamic Azad University, Tabriz Branch, in 2023, following her M.Sc. in Mechatronics Engineering and a B.Sc. in Computer Engineering (Software) from prestigious institutions in Iran. Shilan has extensive teaching experience, having lectured on a range of subjects, including Compiler Design, Operating Systems, Programming (C, C++, PHP), Signals & Systems, and Artificial Intelligence across multiple academic years. Her research interests focus on Image Processing and Machine Learning, where she combines her technical expertise with innovative approaches to address complex computational problems.
             </div>
             <p className="">
               <br />
@@ -146,31 +139,29 @@ export default function Home() {
             <p className="mt-0 mb-4">
               <br />
             </p>
-            <h2 className="text-[#444] text-3xl">Teaching</h2>
+            <h2 className="text-[#444] text-3xl mb-4">Teaching</h2>
             <ul className="mt-0 mb-4">
-              <li>
-                <p>Compiler Design (1397-2, 1399-1, 1400-1, 1401-1, 1402-1)</p>
+              <li className="m-4">
+                <p>1 - Compiler Design</p>
               </li>
-              <li>
+              <li className="m-4">
                 <p>
-                  Operating Systems (1397-2, 1399-1, 1400-1, 1401-1, 1402-1)
+                  2 -  Operating Systems
                 </p>
               </li>
-              <li>
+              <li className="m-4">
                 <p>
-                  Programming in C, C++, PhP (1397-2, 1399-1, 1400-1, 1401-1,
-                  1402-1)
+                  3 - Programming in C, C++, PhP
                 </p>
               </li>
-              <li>
+              <li className="m-4">
                 <p>
-                  Signals & Systems (1397-2, 1399-1, 1400-1, 1401-1, 1402-1)
+                  4 - Signals & Systems
                 </p>
               </li>
-              <li>
+              <li className="m-4">
                 <p>
-                  Artificial Intelligence (1397-2, 1399-1, 1400-1, 1401-1,
-                  1402-1)
+                  5 - Artificial Intelligence
                 </p>
               </li>
             </ul>
@@ -179,10 +170,10 @@ export default function Home() {
             </p>
             <h2 className="text-[#444] text-3xl">Research</h2>
             <ol className="mt-0 mb-4">
-              <li>
+              <li className="m-4">
                 <p className="mt-0 mb-4">Image Processing</p>
               </li>
-              <li>
+              <li className="m-4">
                 <p className="mt-0 mb-4">Machine Learning</p>
               </li>
             </ol>
