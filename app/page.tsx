@@ -1,44 +1,11 @@
-import { BsSearch } from "react-icons/bs";
 import { CgArrowDownR } from "react-icons/cg";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { Header } from "./ui/header";
+import { Footer } from "./ui/footer";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div className="bg-[#2FA4E7] w-full h-[6vh] text-white sticky z-50 flex top-0 right-0 left-0 items-center pt-2 pr-4 pb-2 pl-4 float-none">
-        <div className="flex flex-row justify-between items-center gap-10 flex-nowrap float-none max-w-[1140px] w-full mr-auto ml-auto pl-4 pr-4 text-left">
-          <a className="inline-block text-[#fff] text-xl whitespace-nowrap mr-4 pt-[0.3125rem] pb-[0.3125rem]">
-            Shilan Reshadi
-          </a>
-          <button className="pt-1 pb-1 pr-3 pl-3 overflow-visible block md:hidden mb-2">
-            <span className="inline-block w-[1.5rem] h-[1.5rem] align-middle">
-              <RxHamburgerMenu size={30} />
-            </span>
-          </button>
-          <div className="md:flex flex-row basis-auto flex-grow items-center hidden">
-            <ul className="flex flex-row list-none mb-0 pl-0 flex-wrap mt-0 gap-3">
-              <li>Home</li>
-              <li>Publications</li>
-              <li>Contact me</li>
-            </ul>
-            <ul className="flex ml-auto mb-0 pl-0 flex-wrap mt-0">
-              <li className="flex flex-row justify-center align-middle items-center justify-items-center gap-2">
-                <BsSearch />
-                Search
-              </li>
-              <li className="flex flex-row justify-center align-middle items-center justify-items-center gap-2 ml-2">
-                <FaArrowLeft />
-                Previous
-              </li>
-              <li className="flex flex-row justify-center align-middle items-center justify-items-center gap-2 ml-2">
-                Next
-                <FaArrowRight />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <Header />
       <div className="max-w-[1140px] w-full min-h-screen mt-5 ml-auto mr-auto pl-[15px] pr-[15px]">
         <div className="flex mr-[-15px] ml-[-15px] text-left flex-wrap flex-row">
           <div className="relative max-w-[25%] w-full min-h-[1px] pr-4 pl-4 flex-grow-0 flex-shrink-0 basis-[25%]">
@@ -216,10 +183,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="block text-center pr-[15px] pl-[15px] min-h-[1px] mt-8 relative w-full mb-3">
-        <hr className="text-center border-0 mb-4 mt-4 border-t-[1px] border-solid border-slate-500 overflow-visible h-0" />
-        <p>Footer</p>
-      </div>
+     <Footer />
     </div>
   );
 }
